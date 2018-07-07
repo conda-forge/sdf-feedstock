@@ -14,14 +14,15 @@ Summary: Work with the Scientific Data Format in Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sdf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sdf-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sdf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sdf-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sdf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sdf-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sdf-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sdf-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sdf/badges/version.svg)](https://anaconda.org/conda-forge/sdf)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sdf/badges/downloads.svg)](https://anaconda.org/conda-forge/sdf)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sdf-green.svg)](https://anaconda.org/conda-forge/sdf) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sdf.svg)](https://anaconda.org/conda-forge/sdf) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sdf.svg)](https://anaconda.org/conda-forge/sdf) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sdf.svg)](https://anaconda.org/conda-forge/sdf) |
 
 Installing sdf
 ==============
