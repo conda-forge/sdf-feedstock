@@ -1,23 +1,23 @@
 {% set name = "sdf" %}
-{% set version = "0.3.3" %}
-{% set sha256 = "c1c7dfe08d0294dfa179c50f8f6b8a04d1a0195c3b50bf259a73dac37da75a40" %}
+{% set version = "0.3.4" %}
+{% set sha256 = "5D931CD5D940EE2CD4BB7C3CFA094F3C54610EF106B252C07692DECB441E8B69" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/SDF-{{ version }}.tar.gz  
+  url: https://github.com/ScientificDataFormat/SDF-Python/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
-  script: python setup.py install --single-version-externally-managed --record record.txt 
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - h5py
