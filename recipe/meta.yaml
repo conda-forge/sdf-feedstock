@@ -1,6 +1,6 @@
 {% set name = "sdf" %}
 {% set version = "0.3.4" %}
-{% set sha256 = "5D931CD5D940EE2CD4BB7C3CFA094F3C54610EF106B252C07692DECB441E8B69" %}
+{% set sha256 = "5d931cd5d940ee2cd4bb7c3cfa094f3c54610ef106b252c07692decb441e8b69" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
