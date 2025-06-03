@@ -1,6 +1,6 @@
 {% set name = "sdf" %}
-{% set version = "0.3.6" %}
-{% set sha256 = "da51cb64c411cfdd4bc335f6e29f004917005b4ae25c9220f21ce82a93ead10c" %}
+{% set version = "0.3.7" %}
+{% set sha256 = "d44bc2a6b4beaa2a292b0d1a622c2302f0ee4f012ae1d8f98291faf610184911" %}
 
 package:
   name: {{ name|lower }}
